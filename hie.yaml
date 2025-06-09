@@ -1,12 +1,2 @@
 cradle:
   cabal:
-    - path: "./src"
-      component: "lib:hls-circuit-notation-issue"
-    - path: "./tests/doctests.hs"
-      component: "hls-circuit-notation-issue:doctests"
-    - path: "./tests"
-      component: "hls-circuit-notation-issue:test-library"
-    - path: "./bin/Clashi.hs"
-      component: "hls-circuit-notation-issue:exe:clashi"
-    - path: "./bin/Clash.hs"
-      component: "hls-circuit-notation-issue:exe:clash"
